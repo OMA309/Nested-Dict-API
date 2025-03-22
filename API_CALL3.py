@@ -58,8 +58,8 @@ print(new_female_info )
 #Extract that date into a list
 female_info_outcome = []
 for updated_female_info in new_female_info:
-    f = updated_female_info['date']
-    female_info_outcome.append(f)
+    F = updated_female_info['date']
+    female_info_outcome.append(F)
 
 print(female_info_outcome  )
 
@@ -119,8 +119,8 @@ FEMALE_INFO
 '''
 check_name_w = []
 for names in Info_female:
-    mm = names['name']
-    check_name_w.append(mm)
+    ff = names['name']
+    check_name_w.append(ff)
 print(check_name_w)
 
 
